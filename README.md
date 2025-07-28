@@ -23,10 +23,10 @@ This application contains the following knowledge:
 # State
 - Con el state ponemos el nombre de la variable
 
-- El state administra y define el estado de una variable,es decir el estado la capacidad de cambiar
+- El state administra y define el estado de una variable, es decir el estado la capacidad de cambiar
 el valor de ser escrita por una función y por lo que es el body de nuestra aplicación.
 
-- Si la variable viene de fuera,entonces se usa el state.
+- Si la variable viene de fuera, entonces se usa el state.
 
 - Si se crea dentro de la función no se usa el state.
 
@@ -34,7 +34,7 @@ el valor de ser escrita por una función y por lo que es el body de nuestra apli
 
 - Se usan de una vista a otra vista.
 
-- Es un enlace bidireccional,es la conexión entre una propiedad que almacena datos(variable).
+- Es un enlace bidireccional, es la conexión entre una propiedad que almacena datos(variable).
 y una vista que cambia el valor (Textfield).
 
 ## The aplication look like this :
