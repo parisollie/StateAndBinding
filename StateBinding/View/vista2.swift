@@ -7,15 +7,18 @@
 
 import SwiftUI
 
-//Paso 1.13,creamos una nueva vista
+//V-90,Paso 2.3,creamos una nueva vista.
 struct vista2: View {
-    //Paso 1.14
-    @Binding var x : String
+    //Paso 2.4 el tipo de dato es string
+    @Binding var z : String
+    
     var body: some View{
-        Text(x).font(.largeTitle).foregroundColor(.red)
+        Text(z)
+            .font(.largeTitle)
+            .foregroundColor(.red)
     }
 }
 
 #Preview {
-    vista2(x: .constant("Texto de prueba"))
+    vista2(z: .constant("Texto de prueba"))
 }

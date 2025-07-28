@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-//Paso 1.16
+//Paso 2.6
 struct vista3: View {
-    @Binding var x : String
+    @Binding var w : String
     var body: some View{
         Button(action:{
-            x = "Nuevo titulo desde vista 3"
+            w = "Nuevo titulo desde vista 3"
         }){
             Text("Cambiar titulo")
         }
@@ -20,5 +20,5 @@ struct vista3: View {
 }
 
 #Preview {
-    vista3(x: .constant("Texto de prueba"))
+    vista3(w: .constant("Texto de prueba"))
 }
