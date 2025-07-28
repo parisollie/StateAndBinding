@@ -18,7 +18,7 @@ This application contains the following knowledge:
 
 - Stae and Binding knowledge
 
-## Teoria
+## Teoría
 
 # State
 - Con el state ponemos el nombre de la variable
