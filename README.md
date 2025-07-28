@@ -16,7 +16,26 @@ This application contains the following knowledge:
 
 - NavigationLink
 
-- Stae and Bindin knowledge
+- Stae and Binding knowledge
+
+## Teoria
+
+# State
+- Con el state ponemos el nombre de la variable
+
+- El state administra y define el estado de una variable,es decir el estado la capacidad de cambiar
+el valor de ser escrita por una función y por lo que es el body de nuestra aplicación.
+
+- Si la variable viene de fuera,entonces se usa el state.
+
+- Si se crea dentro de la función no se usa el state.
+
+# Binding
+
+- Se usan de una vista a otra vista.
+
+- Es un enlace bidireccional,es la conexión entre una propiedad que almacena datos(variable).
+y una vista que cambia el valor (Textfield).
 
 ## The aplication look like this :
 ![Simulator Screenshot - iPhone 16 - 2025-03-17 at 16 05 52](https://github.com/user-attachments/assets/8b6a9556-6298-4d47-9ff9-84db99daca4b)
